@@ -31,3 +31,4 @@ class Zeri < Formula
     assert_match version.to_s, shell_output("#{bin}/zeri --version")
   end
 end
+
