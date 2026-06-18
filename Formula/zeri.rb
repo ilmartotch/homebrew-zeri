@@ -39,6 +39,14 @@ class Zeri < Formula
 
       Custom paths: ZERI_PYTHON_PATH, ZERI_BUN_PATH, ZERI_LUAJIT_PATH, ZERI_RUBY_PATH
       For AI context ($ai): https://ollama.com
+
+      Zeri stores its first-run state and data under:
+        macOS:  ~/Library/Application Support/zeri
+        Linux:  ${XDG_CONFIG_HOME:-~/.config}/zeri
+      Homebrew does not remove this on uninstall. To replay the first-run setup
+      without deleting your scripts and sessions, run:
+        zeri --reset-onboarding
+      To remove everything, delete the directory above.
     EOS
   end
 
