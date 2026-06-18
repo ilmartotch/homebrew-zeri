@@ -10,14 +10,14 @@ class Zeri < Formula
   on_macos do
     on_arm do
       url "https://github.com/ilmartotch/ZeriReplEngine/releases/download/v#{version}/zeri-macos-arm64.tar.gz"
-      sha256 "b425d5c87d544b6d9511afbd48b2209a439e6a538d801cb00d437ca6f70cf750" # zeri:sha256:macos
+      sha256 "c59b14b7ab2983c1b54a0fa2d74dc8568965fa93d372abc6b1b50d4b17935911" # zeri:sha256:macos
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ilmartotch/ZeriReplEngine/releases/download/v#{version}/zeri-linux-amd64.tar.gz"
-      sha256 "8840cb86e14ae2a0ec61af29b24793aaa9fb542909d05e9643044bbff51ae27f" # zeri:sha256:linux
+      sha256 "091f982b8e8c04b47e48b2b49d3566c82b81cbcd927b8bc0528fd881ff43503d" # zeri:sha256:linux
     end
   end
 
