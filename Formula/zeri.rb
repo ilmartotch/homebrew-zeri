@@ -4,20 +4,20 @@
 class Zeri < Formula
   desc "TUI multi-language REPL with offline AI context"
   homepage "https://github.com/ilmartotch/ZeriReplEngine"
-  version "1.0.0-alpha" # zeri:version
+  version "1.0.1-alpha" # zeri:version
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ilmartotch/ZeriReplEngine/releases/download/v#{version}/zeri-macos-arm64.tar.gz"
-      sha256 "c59b14b7ab2983c1b54a0fa2d74dc8568965fa93d372abc6b1b50d4b17935911" # zeri:sha256:macos
+      sha256 "c95e634707817505e7dba64743b67b1988300f3971c4c78259c0341fc67a6707" # zeri:sha256:macos
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ilmartotch/ZeriReplEngine/releases/download/v#{version}/zeri-linux-amd64.tar.gz"
-      sha256 "091f982b8e8c04b47e48b2b49d3566c82b81cbcd927b8bc0528fd881ff43503d" # zeri:sha256:linux
+      sha256 "776e9f988298f41e5c5af6fd9e08f410da1c768c413e4113f53dddaaf254da3c" # zeri:sha256:linux
     end
   end
 
